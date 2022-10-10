@@ -1,0 +1,111 @@
+html{
+    font-size: 14px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container, .col{
+    border: 1px dashed red;
+    height: 50px;
+}
+h1{
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+
+/****  Buttons ****/
+
+.button-radius-large{
+    padding: 0.5rem 2rem;
+    background-color: #9792e4;
+    border-radius: 20px;
+    color: white;
+    border: none;
+}
+.apple{
+    background-color: #0084fd;
+}
+
+/*****  Var    *****/
+
+:root{
+    /* navbar icone e button */
+    --color-primary: #0084fd; 
+    /* celeste dentro card */
+    --color-secondary: #b5ddff;
+    /*  viola section e card */
+    --color-tertiary: #9792e4;
+
+    /* color it's Free  #ffc25b */
+
+}
+/* **********************
+    UTILITIES
+*************************/
+
+/********* navbar ********/
+nav{
+    padding: 1rem;
+    margin: auto;
+}
+nav .nav-right a{
+    text-decoration: none;
+    color: white;
+}
+nav .nav-right a i{
+    font-size: 1.5rem;
+}
+
+nav .nav-right li{
+    list-style: none;
+    padding: 0.5rem;
+}
+nav .nav-right button{
+    background-color: white;
+    padding: 0.5rem 0.8rem;
+    border-radius: 20px;
+    border: none;
+}
+nav .nav-right ul{
+    display: none;
+}
+nav .nav-right li:last-child{
+    padding: 0;
+}
+
+/*********** fine nav ************/
+section{
+    padding: 2rem 2rem 3rem;
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+
+.row > *{
+    flex-grow: 1;
+}
+.col{
+
+}
+/* background color */
+.bc2{
+    background-color: var(--color-secondary);
+}
+.space-bet{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    background-color: var(--color-primary);
+    color: white;
+}
+
