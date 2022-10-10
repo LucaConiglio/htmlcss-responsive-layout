@@ -8,7 +8,7 @@ html{
 }
 .container, .col{
     border: 1px dashed red;
-    height: 50px;
+    min-height: 50px;
 }
 h1{
     font-size: 2.5rem;
@@ -32,6 +32,14 @@ h3{
 .apple{
     background-color: #0084fd;
 }
+.cards{
+    border-radius: 20px;
+    
+}
+.radius50{
+    border-radius: 50%;
+}
+
 
 /*****  Var    *****/
 
@@ -52,8 +60,8 @@ h3{
 
 /********* navbar ********/
 nav{
-    padding: 1rem;
     margin: auto;
+    padding: 0.8rem 1.5rem ;
 }
 nav .nav-right a{
     text-decoration: none;
@@ -82,23 +90,48 @@ nav .nav-right li:last-child{
 
 /*********** fine nav ************/
 section{
-    padding: 2rem 2rem 3rem;
+    padding: 2rem 0 3rem;
+    margin: auto;
 }
 .container{
-    width: 100%;
     margin: auto;
 }
 
 .row > *{
     flex-grow: 1;
+    flex-shrink: 0;
 }
 .col{
-
+    width: 100%;
 }
+img{
+    width: 100%;
+    display: block;
+}
+
 /* background color */
+.bc3{
+    background-color: var(--color-tertiary);
+}
 .bc2{
     background-color: var(--color-secondary);
 }
+.bc1{
+    background-color: var(--color-primary);
+}
+.bc-white{
+    background-color: white;
+}
+
+  /*****padding******/
+
+.pad1rem{
+    padding: 0.5rem;
+}
+.pad2rem{
+    padding: 0 1rem;
+}
+
 .space-bet{
     display: flex;
     justify-content: space-between;
@@ -108,4 +141,24 @@ header{
     background-color: var(--color-primary);
     color: white;
 }
-
+.expert-partners .container{
+    text-align: center;
+}
+.mar-top-bot-1rem{
+    margin: 1rem 0;
+}
+.benefits .container{
+    text-align: center;
+}
+.benefits .container .row .col{
+    padding: 0.5rem;
+}
+.its-free .container .col{
+    text-align: center;
+    background-color: var(--color-tertiary);
+}
+footer .container .col-lg-50,footer .container .col-md-50{
+    text-align: center;
+    margin: auto;
+    flex-grow: 1;
+}
