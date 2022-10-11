@@ -15,6 +15,13 @@
         justify-content: center;
         align-items: center;
     }
+    img.radius50{
+        width: 150px;
+        height: 150px;
+    }
+
+    
+
     nav{
         width: 90%;
         max-width: 920px;
@@ -66,6 +73,50 @@
         width: 80%; 
         margin: auto;
     }
+    .img-md-large50{
+        width: 50%;
+    }
+    .icon-first-section{
+        font-size: 50px;
+    }
+    p{
+        font-size: 20px;
+        text-align: center;
+    }
+    .flex-centro{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+    .bor-card-white{
+        border-radius: 70px;
+    }
+    .relative2{
+        position: relative;
+        top: 6rem;
+    }
+    .strategic{
+        padding-bottom: 8rem;
+    }
+    .text-left{
+        text-align: start;
+    }
+    
+    .flexjucent{
+        display: flex;
+        justify-content: center;
+    }
+    .radius50{
+        border-radius: 50%;
+        object-fit: cover;
+        height: 100px;
+        width: 100px;
+        
+}
+
+
 
 }
 
@@ -155,6 +206,7 @@
     }
     .width50{
         width: 50%;
+        margin: auto;
     }
     .width60{
         width: 60%;
@@ -168,4 +220,21 @@
         margin: auto;
         padding: 0 2rem;
     }
+    .img-md-large50{
+        width: 100%;
+    }
+    .flex-centro{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .height{
+        height: 100%;
+    }
+    .relative{
+        position: relative;
+        top: 1rem
+    }
+    
 }

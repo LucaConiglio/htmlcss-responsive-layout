@@ -1,14 +1,12 @@
 html{
     font-size: 14px;
+    line-height: 30px;
 }
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-.container, .col{
-    border: 1px dashed red;
-    min-height: 50px;
 }
 h1{
     font-size: 2.5rem;
@@ -18,6 +16,28 @@ h2{
 }
 h3{
     font-size: 1.5rem;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    padding: 2rem 2rem;
+}
+.width50{
+    width: 50%;
+    margin: auto;
+}
+.center{
+    text-align: center;
+}
+.card-white{
+    width: 80%;
+    padding-left: 5rem;
+}
+.bor-card-white{
+    border-radius: 50px;
+}
+footer{
+    background-color: rgb(57, 56, 56);
 }
 
 /****  Buttons ****/
@@ -32,15 +52,70 @@ h3{
 .apple{
     background-color: #0084fd;
 }
+.but-rad-50{
+    background-color: #9792e4;
+    border: none;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    margin-bottom: 2rem;
+
+
+}
+.relative2{
+    position: static;
+    
+}
+
 .cards{
     border-radius: 20px;
     
 }
+.icon-mobile{
+    font-size: 100px;
+}
 .radius50{
     border-radius: 50%;
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+}
+.relative{
+    position: relative;
+    top: 1rem;
+}
+.flex-centro{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 50%
+}
+.text-center{
+    text-align: center;
+    margin: auto;
+}
+p.color-white{
+    line-height: 20px;
+    font-size: 16px;
+    padding: 0;
+    text-align: center;
+}
+span.padtopbot1{
+    display: inline-block;
 }
 
+.img-md-large50{
+    width: 80%;
+    
+}
+.img-80{
 
+}
+.icon-first-section{
+    font-size: 200px;
+}
 /*****  Var    *****/
 
 :root{
@@ -108,6 +183,13 @@ img{
     width: 100%;
     display: block;
 }
+.flexjucent{
+    display: flex;
+    justify-content: center;
+}
+.text-left{
+    text-align: start;
+}
 
 /* background color */
 .bc3{
@@ -122,15 +204,55 @@ img{
 .bc-white{
     background-color: white;
 }
+.color3{
+    color: rgb(40, 0, 105);
+}
+.color-violet{
+    color: #9792e4;
+}
+.color-white{
+    color: white;
+    text-align: center;
+}
+.height100{
+    height: 100%;
+    overflow: hidden;
+}
+
 
   /*****padding******/
 
 .pad1rem{
     padding: 0.5rem;
 }
+.pad05topbot{
+    padding: 0.5rem 0;
+}
 .pad2rem{
     padding: 0 1rem;
 }
+.padtopbot2{
+    padding: 2rem 0;
+}
+.padtopbot05{
+    padding: 0.5rem 0;
+}
+.padtopbot1{
+    padding: 1rem 0;
+}
+.padall1{
+    padding: 1rem;
+}
+.pad2remall{
+    padding: 2rem;
+}
+.margin8rbot{
+    margin-bottom: 8rem;
+}
+.mar-bot-2rem{
+    margin-bottom: 2rem;
+}
+
 
 .space-bet{
     display: flex;
@@ -145,7 +267,10 @@ header{
     text-align: center;
 }
 .mar-top-bot-1rem{
-    margin: 1rem 0;
+    margin: 1rem auto;
+}
+.mar-top-bot-2rem{
+    margin: 2rem auto;
 }
 .benefits .container{
     text-align: center;
@@ -161,4 +286,40 @@ footer .container .col-lg-50,footer .container .col-md-50{
     text-align: center;
     margin: auto;
     flex-grow: 1;
+}
+.color1{
+    color: var(--color-primary);
+}
+.img-sm-large90{
+    width: 90%;
+}
+.about{
+    background-color: #9792e4;
+    margin-top: 1rem;
+    padding: 0.5rem 0.8rem;
+    border: none;
+    border-radius: 25px;
+    color: white;
+
+}
+.color-gray{
+    color: lightgray;
+    padding: 2rem 0 2rem 0 ;
+}
+.yellow{
+    color: rgb(255, 200, 0);
+    padding: 3rem 0 2rem 0;
+}
+.getstarted{
+    background-color: whitesmoke;
+    border: none;
+    color: #9792e4;
+    border-radius: 30px;
+    padding: 1.5rem 4rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: inline-block;
+}
+.privacy{
+    text-decoration: underline;
 }
